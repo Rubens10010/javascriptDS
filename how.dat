@@ -1,0 +1,10 @@
+npm install 
+tsc -v
+create main.ts
+put export at top to treat as module
+#Compile to plain js
+tsc main.ts
+#run code
+node main.js
+#watch for changes online
+tsc main --watch
